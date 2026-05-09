@@ -1,8 +1,7 @@
-x = 2 + 3
-y = 3
-z = x + y
-z
-
-
-
-
+if(1)          {
+    printf("Analisis correcto!");
+    return;
+} else{
+    printf("Esto no se debe ver");
+    return;
+}
