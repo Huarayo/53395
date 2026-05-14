@@ -5,8 +5,8 @@
 | Campo | Descripción |
 |---|---|
 | **Materia** | Sintaxis y Semántica de Lenguajes |
-| **Alumno** | [Tu Nombre Completo] |
-| **Legajo** | [Tu Número de Legajo] |
+| **Alumno** | Huarayo Leonardo |
+| **Legajo** | 53395 |
 | **Tema Asignado** | `39568_9` |
 | **Lenguaje** | Sub-lenguaje ANSI-C adaptado |
 
@@ -115,8 +115,8 @@ node -v
 ## 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/[tu-usuario]/[tu-legajo].git
-cd [tu-legajo]
+git clone https://github.com/Huarayo/53395
+cd 53395
 ```
 
 ---
@@ -195,7 +195,7 @@ con el código fuente a analizar.
 |---|---|
 | `C_Reducido.g4` | Gramática formal del lenguaje |
 | `generated/` | Código generado automáticamente por ANTLR4 |
-| `index.js` | Punto de entrada principal |
+| `index.js` | Punto de entrada principal(ejecutado mediante `npm start`) |
 | `CustomCVisitor.js` | Implementación semántica e interpretación |
 | `input.txt` | Archivo de entrada para pruebas |
 
@@ -234,6 +234,6 @@ Este proyecto fue desarrollado con fines académicos para aplicar conceptos de:
 
 # Autor
 
-**[Tu Nombre Completo]**  
+**Leonardo Huarayo**  
 Ingeniería en Sistemas de Información  
 UTN
