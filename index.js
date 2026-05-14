@@ -1,6 +1,10 @@
+
+//Se instancia visitor una vez generado el árbol para empezar a recorrer el árbol
+
 import C_ReducidoLexer from "./generated/C_ReducidoLexer.js"
 import C_ReducidoParser from "./generated/C_ReducidoParser.js";
 import CustomCVisitor from "./CustomCVisitor.js";
+
 import antlr4, { CharStreams, CommonTokenStream } from "antlr4";
 import readline from 'readline';
 import fs from 'fs';
@@ -10,7 +14,7 @@ async function main() {
 
     // Intento leer la entrada desde el archivo input - en forma sincrónica.
     try {
-        input = fs.readFileSync('input_incorrecto_2.txt', 'utf8');
+        input = fs.readFileSync('input.txt', 'utf8');
     } catch (err) {
         // Si no es posible leer el archivo, solicitar la entrada del usuario por teclado
         input = await leerCadena(); // Simula lectura síncrona

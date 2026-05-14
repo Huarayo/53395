@@ -1,5 +1,7 @@
 import C_ReducidoVisitor from './generated/C_ReducidoVisitor.js';
 
+//Hereda del visitor generado automáticamente para no perder los cambios si recompilas la gramática
+//interpretar reglas de js a C -> los metodos generados con las etiquetas # DecisionSi,  # MostrarTexto,  # Finalizar
 class CustomCVisitor extends C_ReducidoVisitor {
     visitDecisionSi(ctx) {
         const condicion = ctx.condicion().getText();
