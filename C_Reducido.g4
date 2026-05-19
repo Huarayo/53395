@@ -12,7 +12,7 @@ instrucciones: instruccion
 
 instruccion: decision;
 
-// Estructura if-else jerárquica con etiquetas para el Visitor
+
 decision: SI PAREN_ABRE condicion PAREN_CIERRA LLAVE_ABRE sentencia LLAVE_CIERRA (SINO LLAVE_ABRE sentencia LLAVE_CIERRA)? # DecisionSi;
 
 sentencia: salida
@@ -40,7 +40,6 @@ caracter: letra
 
 letra: LETRA ;
 
-// Mapeo de la regla de la profesora donde mezcló los dígitos y algunos símbolos
 digito: DIGITO ;
 
 simbolo: S_PUNTO 
