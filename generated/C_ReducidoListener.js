@@ -1,4 +1,4 @@
-// Generated from c:/Users/Lenovo/Desktop/ssl-antlr-calculator/C_Reducido.g4 by ANTLR 4.13.2
+// Generated from c:/Users/Lenovo/Desktop/Analizador/otro/53395/C_Reducido.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
@@ -77,6 +77,15 @@ export default class C_ReducidoListener extends antlr4.tree.ParseTreeListener {
 	}
 
 
+	// Enter a parse tree produced by C_ReducidoParser#cadena.
+	enterCadena(ctx) {
+	}
+
+	// Exit a parse tree produced by C_ReducidoParser#cadena.
+	exitCadena(ctx) {
+	}
+
+
 	// Enter a parse tree produced by C_ReducidoParser#caracteres.
 	enterCaracteres(ctx) {
 	}
@@ -92,6 +101,33 @@ export default class C_ReducidoListener extends antlr4.tree.ParseTreeListener {
 
 	// Exit a parse tree produced by C_ReducidoParser#caracter.
 	exitCaracter(ctx) {
+	}
+
+
+	// Enter a parse tree produced by C_ReducidoParser#letra.
+	enterLetra(ctx) {
+	}
+
+	// Exit a parse tree produced by C_ReducidoParser#letra.
+	exitLetra(ctx) {
+	}
+
+
+	// Enter a parse tree produced by C_ReducidoParser#digito.
+	enterDigito(ctx) {
+	}
+
+	// Exit a parse tree produced by C_ReducidoParser#digito.
+	exitDigito(ctx) {
+	}
+
+
+	// Enter a parse tree produced by C_ReducidoParser#simbolo.
+	enterSimbolo(ctx) {
+	}
+
+	// Exit a parse tree produced by C_ReducidoParser#simbolo.
+	exitSimbolo(ctx) {
 	}
 
 

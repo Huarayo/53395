@@ -1,3 +1,3 @@
 if(1){
-    printf("error de corchetes")
+    printf("error de punto y coma")
 }

@@ -5,7 +5,7 @@
     "name": "Debug ANTLR4 grammar",
     "type": "antlr-debug",
     "request": "launch",
-    "input": "input_correcto_1.txt",
+    "input": "input.txt",
     "grammar": "C_Reducido.g4",
     "printParseTree": true,
     "visualParseTree": true

@@ -1,4 +1,3 @@
 if(1){
     printf("Falta cerrar la llave");
     return;
-}

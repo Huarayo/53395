@@ -17,7 +17,7 @@ class CustomCVisitor extends C_ReducidoVisitor {
 
     visitMostrarTexto(ctx) {
         // Ahora usamos CADENA() porque es un Token del Lexer
-        const textoCompleto = ctx.CADENA().getText();
+        const textoCompleto = ctx.cadena().getText();
         // Quitamos las comillas
         const textoLimpio = textoCompleto.substring(1, textoCompleto.length - 1);
         console.log(textoLimpio);

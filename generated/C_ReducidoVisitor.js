@@ -1,4 +1,4 @@
-// Generated from c:/Users/Lenovo/Desktop/ssl-antlr-calculator/C_Reducido.g4 by ANTLR 4.13.2
+// Generated from c:/Users/Lenovo/Desktop/Analizador/otro/53395/C_Reducido.g4 by ANTLR 4.13.2
 // jshint ignore: start
 import antlr4 from 'antlr4';
 
@@ -54,6 +54,12 @@ export default class C_ReducidoVisitor extends antlr4.tree.ParseTreeVisitor {
 	}
 
 
+	// Visit a parse tree produced by C_ReducidoParser#cadena.
+	visitCadena(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
 	// Visit a parse tree produced by C_ReducidoParser#caracteres.
 	visitCaracteres(ctx) {
 	  return this.visitChildren(ctx);
@@ -62,6 +68,24 @@ export default class C_ReducidoVisitor extends antlr4.tree.ParseTreeVisitor {
 
 	// Visit a parse tree produced by C_ReducidoParser#caracter.
 	visitCaracter(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
+	// Visit a parse tree produced by C_ReducidoParser#letra.
+	visitLetra(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
+	// Visit a parse tree produced by C_ReducidoParser#digito.
+	visitDigito(ctx) {
+	  return this.visitChildren(ctx);
+	}
+
+
+	// Visit a parse tree produced by C_ReducidoParser#simbolo.
+	visitSimbolo(ctx) {
 	  return this.visitChildren(ctx);
 	}
 
